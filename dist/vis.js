@@ -20683,7 +20683,7 @@ PointItem.prototype.repositionX = function () {
 PointItem.prototype.repositionY = function () {
   var orientation = this.options.orientation.item;
   var point = this.dom.point;
-  point.style.top = 16 + 'px';
+  point.style.top = '-5px';
 };
 
 /**
